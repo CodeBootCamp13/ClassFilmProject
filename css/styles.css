@@ -1,6 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --BlackMarlin:#382e1a;
-    --Tan:#cab27c;
+    --Tan:#cab37c;
     --Avocado:#979767;
     --OsloGray:#7d8a8d;  
+    --TanTransparent:#cab37c96;
+}
+
+* {
+    margin:0;
+    padding:0;   
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding:0px;
+    background-color: var(--TanTransparent);
+}
+
+header {
+    background-color: var(--BlackMarlin);
+    padding:20px;
+    color: var(--Tan);
+    display:flex;
+    justify-content: space-between;
+  
+}
+
+header ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+header ul a {
+    color:var(--Tan);
+    
+
 }
